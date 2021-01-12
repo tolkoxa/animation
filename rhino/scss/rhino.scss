@@ -1,0 +1,51 @@
+$time: 3s;
+html {
+    font-size: 10px;
+}
+
+*,
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+.gameplate {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid;
+    display: flex;
+    align-items: flex-end;
+}
+
+.align-left {
+    justify-content: flex-start;
+    transition: $time;
+}
+
+.align-centr {
+    justify-content: center;
+    transition: $time;
+}
+
+.align-right {
+    justify-content: flex-end;
+    transition: $time;
+}
+
+.rhino {
+    width: 160px;
+    height: 160px;
+    background-color: blue;
+}
+
+.text {
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
